@@ -154,7 +154,7 @@ bool utilSolveCrosswordPuzzle(std::vector<std::vector<char>> &puzzle,
                               std::vector<std::string> &wordList,
                               int row, int column) {
 
-    // checking if word list is empty which means all words gave been placed
+    // checking if word list is empty which means all words have been placed
     if (wordList.empty()) {
         return true;
     }
